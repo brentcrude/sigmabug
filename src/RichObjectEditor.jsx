@@ -8,7 +8,7 @@ export default function RichObjectEditor() {
   };
 
   return (
-    <div style={{ width: '300px', background: '#ccc', padding: '10px', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ width: '250px', background: 'blue', padding: '10px', display: 'flex', flexDirection: 'column' }}>
       <h3>Rich Editor</h3>
       <textarea
         value={content}

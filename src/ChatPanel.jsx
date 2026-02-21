@@ -11,7 +11,7 @@ export default function ChatPanel() {
   };
 
   return (
-    <div style={{ width: '200px', background: '#ddd', padding: '10px', display: 'flex', flexDirection: 'column' }}>
+    <div style={{ width: '250px', background: 'green', padding: '10px', display: 'flex', flexDirection: 'column' }}>
       <h3>Chat</h3>
       <div style={{ flex: 1, overflowY: 'auto', marginBottom: '5px' }}>
         {messages.map((m, i) => <div key={i}>{m}</div>)}
