@@ -3,8 +3,8 @@ import './App.css';
 import WorldCanvas from './WorldCanvas';
 import ChatPanel from './ChatPanel';
 import RichObjectEditor from './RichObjectEditor';
-
-function App() {
+import './index.css';
+export default function App() {
   return (
     <div className="app-container">
       <WorldCanvas />
@@ -13,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
