@@ -1,0 +1,9 @@
+# Ignore environment file
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# VSCode or other editor folders
+.vscode/
